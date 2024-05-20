@@ -52,3 +52,44 @@ button{
     border-color: aquamarine;
 }
 
+/* SECTION 1 */
+
+.title_servicios{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.container_protection{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.protection{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* SECTION 2 */
+
+.container_information{
+    background-color: aquamarine;
+}
+
+.information{
+    display: flex;
+}
+
+.information1{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 600px;
+}
+
+.title_information{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
