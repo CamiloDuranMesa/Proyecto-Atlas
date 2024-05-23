@@ -49,7 +49,6 @@ button{
     color: black;
     background-color: aquamarine;
     font-weight:bold;
-    border-color: aquamarine;
 }
 
 /* SECTION 1 */
@@ -76,20 +75,131 @@ button{
 /* SECTION 2 */
 
 .container_information{
-    background-color: aquamarine;
+    background-image: -webkit-linear-gradient(-82deg, #ffffff 50%, aquamarine 50%);
+    padding-bottom: 30px;
 }
 
 .information{
     display: flex;
+    padding-top: 130px;
 }
 
 .information1{
     padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 600px;
+    padding-left: 150px;
+    padding-right: 420px;
 }
 
 .title_information{
     font-size: 40px;
     padding-bottom: 10px;
+}
+
+.img_information1{
+    padding-top: 20px;
+    padding-right: 150px;
+}
+
+.img_information2{
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.information2{
+    padding-top: 70px;
+    padding-right: 200px;
+    padding-left: 140px;
+}
+
+.button_information{
+    background-color: black;
+    color: #ffffff;
+    border: none;
+}
+
+/* SECTION 3 */
+
+.container_precios{
+    text-align: center;
+}
+
+.title_precios{
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+h3{
+    font-size: 22px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+span{
+    font-size: 100px;
+}
+
+.text_precios{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.text_precios1{
+    width: 350px;
+    height: 470px;
+    line-height: 35px;
+}
+
+
+.text_precios1_2{
+    background-color:rgb(4, 23, 59);
+    width: 350px;
+    color: aliceblue;
+    height: 470px;
+    line-height: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.button_precio{
+    margin-top: 40px;
+    border-color: black;
+    background-color:#ffffff ;
+}
+
+.button_precio1{
+    margin-top: 40px;
+    border: none;
+}
+
+/* ASIDE */
+aside{
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(212, 212, 212, 0.973);
+}
+
+.clientes_logo{
+    width: 280px;
+}
+
+.contactenos{
+    background-image: url(../assets/images/contact-bk.jpg);
+    color: #ffffff;
+    height: 704px;
+    display: flex;
+}
+
+.information_contactenos{
+    padding-top: 200px;
+    padding-left: 200px;
+    width: 600px;
+}
+
+.title_contactenos{
+font-size: 50px;
 }
