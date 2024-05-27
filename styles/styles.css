@@ -282,4 +282,63 @@ footer{
     height: 20px;
 }
 
+@media screen and (max-width: 1279px) {
+    /*HEADER*/
+    h1{
+        font-size: 50px;
+        padding-right: 200px;
+    }
 
+    .text_header{
+        font-size: 20px;
+    }
+    .header2{
+        margin: 100px;
+        margin-right: 400px;
+        padding-left: 60px;
+    }
+    /*SECTION 1*/
+    .title_servicios{
+        font-size: 35px;
+    }
+    .protection{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    /*SECTION2*/
+    .container_information{
+        padding-bottom: 80px;
+    }
+    
+    .information1{
+        padding-left: 150px;
+        padding-right: 50px;
+    }
+
+    .img_information1{
+        padding-top: 70px;
+        width: 500px;
+    }
+    
+    .img_information2{
+        width: 500px;
+    }
+
+    .information2{
+        padding-left: 30px;
+        padding-right: 90px;
+    }
+    
+    /*CONTACTENOS*/
+
+    .clientes_logo{
+        width: 200px;
+    }
+
+    .encuesta{
+        padding-left: 100px;
+    }
+    .marcas{
+        padding-left: 700px;
+    }
+}
