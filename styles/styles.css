@@ -39,6 +39,7 @@ h1{
 .text_header{
     padding-top: 10px;
     line-height: 25px;
+    font-size: 20px;
 }
 
 button{
@@ -466,4 +467,93 @@ footer{
         padding-top: 150px;
         padding-left: 60px;
     }
+}
+
+@media screen and (max-width: 480px){
+    /* HEADER */
+    .header2{
+        margin: 30px;
+        margin-right: 50px;
+        padding-left: 40px;
+    }
+
+    /* SECTION1 */
+    .title_servicios{
+        font-size: 25px;
+    }
+
+    .container_information{
+        flex-direction: column;
+    }
+    .container_protection{
+        flex-direction: column;
+    }
+
+    .information{
+        flex-direction: column;
+    }
+
+    .information1{
+        text-align: center;
+        padding-left: 0px;
+
+    }
+
+    .img_information1{
+        padding-left: 70px;
+        padding-right: 0px;
+    }
+
+    .img_information2{
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+
+    .information2{
+        text-align: center;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .text_precios{
+        flex-direction: column;
+    }
+
+    .text_precios1{
+        width: 480px;
+    }
+
+    .text_precios1_2{
+        width: 480px;
+        margin: 0px;
+    }
+
+    aside{
+        flex-wrap: wrap;
+    }
+
+    footer{
+        padding-left: 10px;
+    }
+
+    .marcas{
+        padding-left: 10px;
+    }
+
+    .contactenos{
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .information_contactenos{
+        padding-left: 20px;
+        width: 450px;
+    }
+
+    .encuesta{
+        padding-left: 36px;
+        padding-top: 30px;
+    }
+    
+
 }
