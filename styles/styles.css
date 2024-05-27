@@ -424,7 +424,46 @@ footer{
     .marcas{
         padding-left: 300px;
     }
+}
 
+@media screen and (max-width: 768px){
+    /* SECTION2 */
 
-    
+    .img_information1{
+        width: 300px;
+    }
+
+    .img_information2{
+        width: 300px;
+    }
+    /* ASIDE */
+    .clientes_logo{
+        width: 140px;
+    }
+
+    .clientes_logo1{
+        width: 70px;
+    }
+    .clientes_logo2{
+        width: 120px;
+    }
+    /* CONTACTENOS */
+
+    .contactenos{
+        height: 600px;
+    }
+
+    .information_contactenos{
+        font-size: 15px;
+        padding-top: 100px;
+    }
+
+    .marcas{
+        padding-left: 200px;
+    }
+
+    .encuesta{
+        padding-top: 150px;
+        padding-left: 60px;
+    }
 }
